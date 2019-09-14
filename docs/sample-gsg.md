@@ -2,7 +2,7 @@
 
 *This writing sample is adapted from a Getting Started Guide that I created for an employer. I have removed or modified certain content for brevity and confidentiality. The sample is intended for review only; it is not a working set of instructions.*
 
-*The original guide was created in XMetaL/SDL Trisoft and published in HTML on the company's website.*
+*The original guide was created in DITA using XMetaL/SDL Trisoft and published in HTML on a website. I owned the document, which included writing and validating the content.*
 
 ## Getting Started Guide
 
