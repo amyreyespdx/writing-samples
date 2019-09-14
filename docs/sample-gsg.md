@@ -42,9 +42,9 @@ In this step, you will run the provided script on your host system to build a cu
 
 **NOTE** To build this image, your computer will take anywhere from one half-hour (assuming your computer is a large server) to several hours (assuming your computer is a typical laptop).
 
-1. If you haven't already downloaded the SDK package, go to \<link>.
+1. If you haven't already downloaded the SDK package, go to \<link omitted>.
 
-2. In a terminal window, extract the package. Replace \<version> as appropriate.
+2. In a terminal window, extract the package. Replace `<version>` as appropriate.
    ```
    tar -xvf package_<version>.tar.gz
    ```
@@ -54,12 +54,12 @@ In this step, you will run the provided script on your host system to build a cu
    cd package_<version>
    ```
 
-4. Make the script executable by running the following command. Replace \<version> as appropriate.
+4. Make the script executable by running the following command. Replace `<version>` as appropriate.
    ```
    chmod +x ./sdk_install_<version>.sh
    ```
 
-5. Run the following command to run the script. For the target argument, specify the desired installation directory — the script will create the directory if it doesn't already exist. Example: /home/\<user>/Desktop/my-files. The script will do its work in the specified directory.
+5. Run the following command to run the script. For the target argument, specify the desired installation directory — the script will create the directory if it doesn't already exist. Example: `/home/<user>/Desktop/my-files`. The script will do its work in the specified directory.
    ```
    ./sdk_install_<version>.sh --keep --target <installation directory>
    ```
@@ -72,18 +72,18 @@ In this step, you will run the provided script on your host system to build a cu
 
 ### Step 3: Install the Toolchain
 
-In this step, you will install the Yocto Project*-based toolchain on the host system. You can use the toolchain to build your applications.
+In this step, you will install the toolchain on the host system. You can use the toolchain to build your applications.
 
-1. On the host system, go to the toolchain installation script location. Replace \<installation directory> with the directory specified in [Step 2: Build the Image and Toolchain](#step-2-build-the-image-and-toolchain).
+1. On the host system, go to the toolchain installation script location. Replace `<installation directory>` with the directory specified in [Step 2: Build the Image and Toolchain](#step-2-build-the-image-and-toolchain).
    ```
    cd <installation directory>/yocto_build/build/tmp/deploy/sdk
    ```
-2. Run the following command to install the toolchain. Replace \<toolchain installation directory> with the desired destination — the script will create the directory if it doesn't already exist. Example: /home/\<user>/Desktop/my-files/toolchain.
+2. Run the following command to install the toolchain. Replace `<toolchain installation directory>` with the desired destination — the script will create the directory if it doesn't already exist. Example: `/home/<user>/Desktop/my-files/toolchain`.
    ```
    ./toolchain-script.sh -d <toolchain installation directory>
    ```
 
-3. To build an application, source the toolchain cross-compile environment. Replace \<toolchain installation directory> with the directory from the previous step.
+3. To build an application, source the toolchain cross-compile environment. Replace `<toolchain installation directory>` with the directory from the previous step.
    ```
    source <toolchain installation directory>/environment-setup-linux
    ```
