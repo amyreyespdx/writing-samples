@@ -1,10 +1,10 @@
-## Portfolio
+## Writing Portfolio
 
 ---
 
 Welcome! 
 
-The following samples are from 2016 and earlier. My newer work is confidential. 
+Here are a few samples from 2016 and earlier. My newer work is confidential.  
 
 - [Installation Guide](pdf/writing-sample-334815-002-intel-bmp-installation-guide.pdf): This document shows how to install a gateway that collects data from sensors in buildings and sends the data to a cloud-based management service.
 
