@@ -4,7 +4,7 @@
 
 Welcome! 
 
-Here are a few samples from 2016 and earlier. My newer work is confidential.  
+Most of my work is confidential, but here are a few examples that I can share:
 
 - [Installation Guide](pdf/writing-sample-334815-002-intel-bmp-installation-guide.pdf): This document shows how to install a gateway that collects data from sensors in buildings and sends the data to a cloud-based management service.
 
